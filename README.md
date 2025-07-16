@@ -46,7 +46,7 @@ Sender One
 
 ---
 
- #### Optional `Do You use MacOs?` use the run_project.sh included script to start 3 projects once
+ #### Optional `Do You use MacOs/Linux?` use the run_project.sh included script to start 3 projects once
 
 Make the script executable
 ```
