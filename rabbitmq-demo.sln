@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.0 Service", "1.0 Service", "{0DA13682-629F-4D8E-9223-014DB59A3CBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rabbitmq-sender", "rabbitmq-sender\rabbitmq-sender.csproj", "{112716DA-4F66-4DBA-BD35-C72ABB1DF7D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1 Service", "2.1 Service", "{0FB8A0CB-0430-4FBB-8FF5-D1909FF98FBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rabbitmq-receiver-two", "rabbitmq-receiver-two\rabbitmq-receiver-two.csproj", "{65C541DE-FBF3-4506-A87A-5979D3237C9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.0 Service", "2.0 Service", "{FFD2D082-9781-43E1-8678-411215529AA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rabbitmq-receiver-one", "rabbitmq-receiver-one\rabbitmq-receiver-one.csproj", "{3093E2B9-6628-46CB-9D3F-A9D06DABCFC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{112716DA-4F66-4DBA-BD35-C72ABB1DF7D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{112716DA-4F66-4DBA-BD35-C72ABB1DF7D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{112716DA-4F66-4DBA-BD35-C72ABB1DF7D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{112716DA-4F66-4DBA-BD35-C72ABB1DF7D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65C541DE-FBF3-4506-A87A-5979D3237C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65C541DE-FBF3-4506-A87A-5979D3237C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65C541DE-FBF3-4506-A87A-5979D3237C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65C541DE-FBF3-4506-A87A-5979D3237C9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3093E2B9-6628-46CB-9D3F-A9D06DABCFC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3093E2B9-6628-46CB-9D3F-A9D06DABCFC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3093E2B9-6628-46CB-9D3F-A9D06DABCFC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3093E2B9-6628-46CB-9D3F-A9D06DABCFC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{112716DA-4F66-4DBA-BD35-C72ABB1DF7D6} = {0DA13682-629F-4D8E-9223-014DB59A3CBC}
+		{65C541DE-FBF3-4506-A87A-5979D3237C9E} = {0FB8A0CB-0430-4FBB-8FF5-D1909FF98FBE}
+		{3093E2B9-6628-46CB-9D3F-A9D06DABCFC9} = {FFD2D082-9781-43E1-8678-411215529AA3}
+	EndGlobalSection
+EndGlobal
